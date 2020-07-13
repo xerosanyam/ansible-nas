@@ -91,6 +91,10 @@ mosquitto_enabled: false
 homebridge_enabled: false
 openhab_enabled: false
 
+# Pi-hole
+pihole_with_traefik_enabled: false
+pihole_without_traefik_enabled: false
+
 # Books
 calibre_enabled: false
 
@@ -342,6 +346,14 @@ samba_netbios_name: "{{ ansible_nas_hostname }}"
 traefik_docker_image: traefik:v1.7
 traefik_data_directory: "{{ docker_home }}/traefik"
 traefik_debug: "false"
+
+###
+### Pi-hole
+###
+pihole_data_directory: "{{ docker_home }}/pihole"
+pihole_dns1: "1.1.1.1"
+pihole_dns2: "8.8.8.8"
+pihole_WEBPASSWORD: "byebyeads"
 
 ###
 ### Heimdall

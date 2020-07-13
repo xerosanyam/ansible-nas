@@ -208,6 +208,7 @@ onDemand = false # create certificate when container is created
           "ombi.{{ ansible_nas_domain }}",
           "openhab.{{ ansible_nas_domain }}",
           "organizr.{{ ansible_nas_domain }}",
+          "pihole.{{ ansible_nas_domain }}",
           "plex.{{ ansible_nas_domain }}",
           "portainer.{{ ansible_nas_domain }}",
           "pyload.{{ ansible_nas_domain }}",
