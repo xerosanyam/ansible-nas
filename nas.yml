@@ -36,7 +36,7 @@
     when: (traefik_enabled | default(False))
     tags: traefik
 
-- import_tasks: tasks/pihole_with_traefik.yml
+  - import_tasks: tasks/pihole_with_traefik.yml
     when: (pihole_with_traefik_enabled | default(False))
     tags: pihole_with_traefik
 
