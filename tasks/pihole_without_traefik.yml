@@ -11,7 +11,7 @@
 - name: Pi-hole (without Traefik) Docker Container
   docker_container:
     name: pihole
-    image: pihole/pihole:latest
+    image: pihole/pihole:dev
     pull: false
     volumes:
       - "{{ pihole_data_directory }}/etc/pihole:/etc/pihole:rw"
