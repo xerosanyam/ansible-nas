@@ -748,7 +748,7 @@ timemachine_log_level: error
 timemachine_port: "10445"
 
 ###
-### minidlna
+### MiniDLNA
 ###
 minidlna_media_directory1: "{{ movies_root }}"
 minidlna_media_directory2: "{{ tv_root }}"
@@ -873,6 +873,10 @@ jellyfin_music_directory: "{{ music_root }}"
 jellyfin_movies_directory: "{{ movies_root }}"
 jellyfin_video_directory: "{{ video_root }}"
 jellyfin_movies_permissions: "rw"
+jellyfin_music_directory: "{{ music_root }}"
+jellyfin_music_permissions: "rw"
+jellyfin_photos_directory: "{{ photos_root }}"
+jellyfin_photos_permissions: "rw"
 jellyfin_tv_directory: "{{ tv_root }}"
 jellyfin_tv_permissions: "rw"
 jellyfin_user_id: "0"
