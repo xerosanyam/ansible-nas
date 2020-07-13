@@ -25,11 +25,11 @@ homeassistant_enabled: true
 glances_enabled: true
 jellyfin_enabled: true
 jackett_enabled: true
-sonarr_enabled: false
-grafana_enabled: false
+# sonarr_enabled: false
+# grafana_enabled: false
 # telegraf_enabled: true
 # grafana_available_externally: true
 youtubedlmaterial_enabled: true
 nextcloud_enabled: true
-airsonic_enabled: false
+# airsonic_enabled: false
 pihole_without_traefik_enabled: true
