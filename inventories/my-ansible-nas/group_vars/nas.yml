@@ -32,4 +32,4 @@ jackett_enabled: true
 youtubedlmaterial_enabled: true
 nextcloud_enabled: true
 # airsonic_enabled: false
-pihole_without_traefik_enabled: true
+pihole_without_traefik_enabled: false
