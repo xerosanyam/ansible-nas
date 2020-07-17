@@ -165,7 +165,7 @@ samba_shares_root: /mnt/Volume3
 downloads_root: "{{ samba_shares_root }}/downloads"
 
 # Where your movies are stored
-movies_root: "{{ samba_shares_root }}/movies"
+movies_root: "{{ samba_shares_root }}/downloads"
 
 # Where your TV episodes are stored
 tv_root: "{{ samba_shares_root }}/tv"
@@ -885,7 +885,6 @@ jellyfin_music_directory: "{{ music_root }}"
 jellyfin_movies_directory: "{{ movies_root }}"
 jellyfin_video_directory: "{{ video_root }}"
 jellyfin_movies_permissions: "rw"
-jellyfin_music_directory: "{{ music_root }}"
 jellyfin_music_permissions: "rw"
 jellyfin_photos_directory: "{{ photos_root }}"
 jellyfin_photos_permissions: "rw"
